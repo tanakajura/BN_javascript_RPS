@@ -14,5 +14,9 @@ function computerPlay(){
 
 function playRound(playerSelection, computerSelection){
     computerSelection = computerPlay();
-    
+    playerSelection = prompt("Enter \"Rock\", \"Paper\" or \"Scissors\"", "");
 }
+
+let player;
+let computer;
+playRound(player,computer);
