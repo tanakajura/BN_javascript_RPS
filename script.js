@@ -59,15 +59,21 @@ function playRound(playerSelection, computerSelection){
     
 }
 
-let computerScore = 0;
-let playerScore = 0;
-
 for(let i = 0; i <=5; i++){
     playRound();
-    if(allocatePoint == 1){
+    i++;
+}
+
+
+/*
+let computerScore = 0;
+let playerScore = 0;
+for(let i = 0; i <=5; i++){
+    playRound();
+    if(playRound().allocatePoint = 1){
         computerScore = computerScore + 1;
     }else{
-        if(allocatePoint == 2){
+        if(playRound().allocatePoint = 2){
             playerScore = playerScore + 1;
         }else{
             i++;
@@ -75,4 +81,4 @@ for(let i = 0; i <=5; i++){
     }
     i++;
 }
-
+*/
