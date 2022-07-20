@@ -18,25 +18,25 @@ function playRound(playerSelection, computerSelection){
     playerSelection = prompt("Enter \"Rock\", \"Paper\" or \"Scissors\"", "").toLowerCase();
 
     if(computerSelection == playerSelection){
-        return "CPU Selected: " + computerSelection + "You Selected: " + playerSelection + " Its a Draw!";
+        return console.log("CPU Selected: " + computerSelection + "You Selected: " + playerSelection + " Its a Draw!");
     }else{
         if((computerSelection == "rock") && (playerSelection == "Scissors")){
-            return "CPU Selected: " + computerSelection + "You Selected: " + playerSelection + " Computer Wins!";
+            return console.log("CPU Selected: " + computerSelection + "You Selected: " + playerSelection + " Computer Wins!");
         }else{
             if((computerSelection == "Scissors") && (playerSelection == "Rock")){
-                return "CPU Selected: " + computerSelection + "You Selected: " + playerSelection + " You Win!";
+                return console.log("CPU Selected: " + computerSelection + "You Selected: " + playerSelection + " You Win!");
             }else{
                 if((computerSelection == "rock") && (playerSelection == "Paper")){
-                    return "CPU Selected: " + computerSelection + "You Selected: " + playerSelection + " You Win!";
+                    return console.log("CPU Selected: " + computerSelection + "You Selected: " + playerSelection + " You Win!");
                 }else{
                     if((computerSelection == "Paper") && (playerSelection == "Scissors")){
-                        return "CPU Selected: " + computerSelection + "You Selected: " + playerSelection + " You Win!";
+                        return console.log("CPU Selected: " + computerSelection + "You Selected: " + playerSelection + " You Win!");
                     }else{
                         if((computerSelection == "Paper") && (playerSelection == "Rock")){
-                            return "CPU Selected: " + computerSelection + "You Selected: " + playerSelection + " Computer Wins!";
+                            return console.log("CPU Selected: " + computerSelection + "You Selected: " + playerSelection + " Computer Wins!");
                         }else{
                             if((computerSelection == "Scissors") && (playerSelection == "Paper")){
-                                return "CPU Selected: " + computerSelection + "You Selected: " + playerSelection + " Computer Wins!";
+                                return console.log("CPU Selected: " + computerSelection + "You Selected: " + playerSelection + " Computer Wins!");
                         }
                     }
                 }
@@ -47,8 +47,7 @@ function playRound(playerSelection, computerSelection){
 }
 
 
-let player = " ";
-let computer = " ";
-console.log(playRound(player,computer));
+
+playRound();
 
 
