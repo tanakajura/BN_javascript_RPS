@@ -11,9 +11,6 @@ function computerPlay(){
 }
 
 function playRound(playerSelection, computerSelection){  
-    playerSelection = prompt("Enter Rock, Paper or Scissors: ", "").toLowerCase().trim();
-    computerSelection = computerPlay();
-
     if(computerSelection == "rock"){
         switch(playerSelection){
             case "paper":
@@ -57,7 +54,9 @@ function playRound(playerSelection, computerSelection){
     }
 }
 
-console.log(playRound());
+const playerSelection = prompt("Enter Rock, Paper or Scissors: ", "").toLowerCase().trim();
+const computerSelection = computerPlay();
+console.log(playRound(playerSelection,computerSelection));
 
 
 
