@@ -1,6 +1,6 @@
 function computerPlay(){
-    let cpuChoice = Math.floor(Math.random() * 4);
-    switch(cpuChoice){
+    let cpuChoice;
+    switch(cpuChoice = Math.floor(Math.random() * 3) + 1){
         case 1:
             return "Rock";
         case 2:
@@ -9,9 +9,9 @@ function computerPlay(){
             return "Scissors";
     }
 }
-for(let i = 0; i <= 5; i++){
+
+for(let i = 1; i <= 5; i++){
     console.log(computerPlay());
-    i++;
 }
 /*function playRound(playerSelection, computerSelection){
 
