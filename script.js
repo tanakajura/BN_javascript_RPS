@@ -92,3 +92,201 @@ if (cpu_Score > p1_Score) {
         console.log("WOW! Its a Draw");
     }
 }
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
+if (cpu_Score > p1_Score) {
+    console.log("Computer WINs! Try again next time");
+}else{
+    if(p1_Score > cpu_Score){
+        Console.log("GREAT JOB! You WIN");
+    }else{
+        console.log("WOW! Its a Draw");
+    }
+}
