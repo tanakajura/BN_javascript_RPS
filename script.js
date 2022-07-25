@@ -63,7 +63,7 @@ function game(){
     let computerSelection = computerPlay();  
     let play = playRound(playerSelection,computerSelection);   
         
-    if(playRound(playerSelection,computerSelection) == "Draw!"){
+    if(play == "Draw!"){
         return console.log("Draw!" + "\nYou: " + p1_Score + "\nCPU: " + cpu_Score);
     }else{
         if(play == "You Win!"){
