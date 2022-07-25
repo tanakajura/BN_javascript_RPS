@@ -1,6 +1,10 @@
 //global variables
 let cpu_Score = 0;
 let p1_Score = 0;
+let playerSelection = prompt("Enter Rock, Paper or Scissors: ", "").toLowerCase().trim();
+let computerSelection = computerPlay();  
+let play = playRound(playerSelection,computerSelection);  
+
 
 function computerPlay(){
     let cpuChoice;
@@ -58,31 +62,21 @@ function playRound(playerSelection, computerSelection){
     }
 }
 
-function game(){
-    let playerSelection = prompt("Enter Rock, Paper or Scissors: ", "").toLowerCase().trim();
-    let computerSelection = computerPlay();  
-    let play = playRound(playerSelection,computerSelection);   
-    
-    if((playerSelection === "rock")||(playerSelection === "paper")||(playerSelection === "scissors")){  
-        if(play == "Draw!"){
-            return console.log("Draw!" + "\nYou: " + p1_Score + "\nCPU: " + cpu_Score);
+function game(){        
+    if(play == "Draw!"){
+        return console.log("Draw!" + "\nYou: " + p1_Score + "\nCPU: " + cpu_Score);
+    }else{
+        if(play == "You Win!"){
+            p1_Score++;
+            return console.log("You Win " + playerSelection + " beats " + computerSelection + "\nYou: " + p1_Score + "\nCPU: " + cpu_Score);
         }else{
-            if(play == "You Win!"){
-                p1_Score++;
-                return console.log("You Win " + playerSelection + " beats " + computerSelection + "\nYou: " + p1_Score + "\nCPU: " + cpu_Score);
-            }else{
-                if(play == "You Lose!"){
-                    cpu_Score++;
-                    return console.log("You Lose " + computerSelection + " beats " + playerSelection + "\nYou: " + p1_Score + "\nCPU: " + cpu_Score);
-                }
+            if(play == "You Lose!"){
+                cpu_Score++;
+                return console.log("You Lose " + computerSelection + " beats " + playerSelection + "\nYou: " + p1_Score + "\nCPU: " + cpu_Score);
             }
         }
-    }else{
-        console.log("Wrong input, Please re-nter");
-        playerSelection = prompt("Enter Rock, Paper or Scissors: ", "").toLowerCase().trim();
-    } 
+    }
 }
-
 
 for(let i = 0; i < 5; i++){
     game();
